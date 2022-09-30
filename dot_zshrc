@@ -89,6 +89,7 @@ source $HOME/.asdf/asdf.sh
 export PATH=$PATH:$(npm get prefix)/bin
 export FLYCTL_INSTALL="/Users/jesse/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
+export PATH="/Users/jesse/.local/bin:$PATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
